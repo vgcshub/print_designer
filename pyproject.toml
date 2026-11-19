@@ -31,6 +31,9 @@ use_parentheses = true
 ensure_newline_before_comments = true
 indent = "\t"
 
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
+
 [deploy.dependencies.apt]
 packages = [
     "fonts-liberation",
